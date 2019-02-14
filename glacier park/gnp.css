@@ -1,0 +1,97 @@
+body {
+    font-family: Verdana;
+    background-color: lightgray;
+    margin: 0;
+    padding:0;
+    background-image:url(bgpic.jpg);
+    background-repeat:repeat;
+    background-position: top center;
+    background-size: auto;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header img {
+    max-width: 60%;
+    height: auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #911b1a;
+    padding: 0px;
+    text-align: center;
+ 
+}
+
+nav {
+    background-color: #911b1a;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+nav li{
+    display: inline;
+    /*padding: 20px;*/
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: #54c3e5;
+    background-color: lightgray;
+    
+}
+
+section {
+    padding: 10px;
+    background-color: white;
+    overflow: auto;
+}
+
+.bgpic{
+    width: 40%;
+    float: right;
+}
+
+.glacierpark{
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+
+.button {
+    background-color: #54c3e5;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+a.button:hover {
+    background-color: lightgray;
+}
+
+footer {
+    background-color: #911b1a;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+}
