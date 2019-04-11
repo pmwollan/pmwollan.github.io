@@ -1,0 +1,133 @@
+html, body{
+    margin:0;
+    padding: 0;
+    background:lightgray;
+    font-family: Verdana, sans-serif;
+}
+#wrap{
+    max-width: 980px;
+    width: 60%;
+    margin: 0 auto;
+}
+header{
+    clear:both;
+    text-align: center;
+}
+.cupcakelogo{
+    width:100%;
+}
+nav{
+    padding: 10px 0;
+    background: #0ec8c7;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 45px;
+}
+nav a:hover{
+    color:red;
+}
+#primary{
+    background-color: #ec3632;
+    max-width: 980px;
+    overflow: auto;
+}
+
+#options{
+    float: left;
+    background: transparent;
+    padding: 3%;
+    width:13%;
+}
+#options ul{
+      margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#options li{
+    margin: 0 0 20px;
+}
+
+#options li a{
+    color: white;
+    text-decoration: none;
+}
+#text{
+    padding: 3%;
+    width: 73%;
+    float: right;
+    background: white;
+}
+footer{
+    background-color:#0ec8c7;
+    padding: 20px 10px;
+    text-align: center;
+    clear: both;
+    font-size: 12px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer li{
+    display: inline;
+}
+
+footer li::before{
+    content: " | ";
+    margin: 0 10px;
+}
+footer .exclude::before{
+    content: "";
+}
+
+.buycup{
+    float:right;
+    max-width: 320px;
+    width: 50%;
+    margin: 0 0 15px 15px;
+}
+h1{
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width:906px) and (max-width:1500px) {
+    #wrap{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:905px) {
+    #wrap{
+        width: 100%;
+    }
+    nav li a{
+        padding: 5px 25px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #options{
+        text-align: center;
+        padding: 3% 0;
+    }
+    #options ul{
+        margin: 0;
+        padding: 0;
+    }
+    #wrap{
+        width: 100%;
+    }
+}
