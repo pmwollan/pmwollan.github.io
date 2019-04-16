@@ -10,15 +10,20 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	width:100%;
 	height:auto;
 	overflow: hidden;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   
 }
 .nivoSlider img {
 	position:absolute;
 	top:0px;
 	left:0px;
 	max-width: none;
+    
 }
 .nivo-main-image {
 	display: block !important;
@@ -110,4 +115,9 @@
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
+}
+
+.dog
+{
+  height: 250px;
 }
